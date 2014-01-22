@@ -17,8 +17,23 @@ I decided to put them on GitHub because ... well, I like sharing. :)
 
 Retrieved from here : https://github.com/twbs/bootstrap/archive/v3.0.3.zip (2014-01-22).
 
-This project marks up the basic Bootstrap templates as well as all of the [example Bootstrap
-templates](http://getbootstrap.com/getting-started/#examples) too.
+Templates implemented [from](http://getbootstrap.com/getting-started/#examples):
+
+* http://getbootstrap.com/examples/carousel
+* http://getbootstrap.com/examples/grid
+* http://getbootstrap.com/examples/jumbotron
+* http://getbootstrap.com/examples/jumbotron-narrow
+* http://getbootstrap.com/examples/justified-nav
+* http://getbootstrap.com/examples/navbar
+* http://getbootstrap.com/examples/navbar-fixed-top
+* http://getbootstrap.com/examples/navbar-static-top
+* http://getbootstrap.com/examples/non-responsive
+* http://getbootstrap.com/examples/offcanvas
+* http://getbootstrap.com/examples/signin
+* http://getbootstrap.com/examples/starter-template
+* http://getbootstrap.com/examples/sticky-footer
+* http://getbootstrap.com/examples/sticky-footer-navbar
+* http://getbootstrap.com/examples/theme
 
 ## Viewing these Templates Locally ##
 
