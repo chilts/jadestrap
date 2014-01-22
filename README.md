@@ -20,6 +20,19 @@ Retrieved from here : https://github.com/twbs/bootstrap/archive/v3.0.3.zip (2014
 This project marks up the basic Bootstrap templates as well as all of the [example Bootstrap
 templates](http://getbootstrap.com/getting-started/#examples) too.
 
+## Viewing these Templates Locally ##
+
+It's easy:
+
+```
+$ git clone https://github.com/chilts/jadestrap.git
+$ cd jadestrap
+$ npm install
+$ node server.js
+```
+
+Then browser to [localhost:3000](http://localhost:3000/) on your local machine.
+
 ## LICENSE ##
 
 Server code is MIT. Templates in HTML and CSS are the same as Bootstrap. Templates in Jade are MIT.
