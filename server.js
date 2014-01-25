@@ -17,6 +17,7 @@ var st = require('st');
 
 var valid = {
     '/bootstrap-v3.0.3/starter-template/' : true,
+    '/bootstrap-v3.0.3/navbar/'           : true,
 };
 var jadeOpts = {
     pretty : true,
