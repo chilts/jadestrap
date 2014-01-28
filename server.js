@@ -19,6 +19,7 @@ var valid = {
     '/bootstrap-v3.0.3/starter-template/'     : true,
     '/bootstrap-v3.0.3/navbar/'               : true,
     '/bootstrap-v3.0.3/sticky-footer-navbar/' : true,
+    '/bootstrap-v3.0.3/navbar-static-top/'    : true,
 };
 var jadeOpts = {
     pretty : true,
