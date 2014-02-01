@@ -1,7 +1,7 @@
 #!/bin/bash
 ## ----------------------------------------------------------------------------
 
-VERSION=3.0.3
+VERSION=3.1.0
 
 cd /tmp/
 wget https://github.com/twbs/bootstrap/archive/v$VERSION.zip
@@ -10,21 +10,27 @@ cd -
 
 # these are all of the bootstrap examples
 EXAMPLES=(
-    carousel
+    starter-template
+    theme
     grid
     jumbotron
     jumbotron-narrow
-    justified-nav
+
     navbar
-    navbar-fixed-top
     navbar-static-top
-    non-responsive
-    offcanvas
+    navbar-fixed-top
+
+    cover
+    carousel
+    blog
+    dashboard
     signin
-    starter-template
+    justified-nav
     sticky-footer
     sticky-footer-navbar
-    theme
+
+    non-responsive
+    offcanvas
 )
 
 # now copy the files over
@@ -32,22 +38,22 @@ for EXAMPLE in ${EXAMPLES[*]}; do
     echo "--- $EXAMPLE ---"
 
     echo "Making new directory for this example ..."
-    mkdir -p bootstrap-v$VERSION/$EXAMPLE
+    mkdir -p htdocs/bootstrap-v$VERSION/$EXAMPLE
     echo "... done"
 
     echo "Removing old index.html and css files ..."
-    rm -f bootstrap-v$VERSION/$EXAMPLE/index.html
-    rm -f bootstrap-v$VERSION/$EXAMPLE/*.css
+    rm -f htdocs/bootstrap-v$VERSION/$EXAMPLE/index.html
+    rm -f htdocs/bootstrap-v$VERSION/$EXAMPLE/*.css
     echo "... done"
 
     echo "Copying index.html and css files ..."
-    cp /tmp/bootstrap-$VERSION/examples/$EXAMPLE/index.html bootstrap-v$VERSION/$EXAMPLE/
-    cp /tmp/bootstrap-$VERSION/examples/$EXAMPLE/*.css bootstrap-v$VERSION/$EXAMPLE/
+    cp /tmp/bootstrap-$VERSION/docs/examples/$EXAMPLE/index.html htdocs/bootstrap-v$VERSION/$EXAMPLE/
+    cp /tmp/bootstrap-$VERSION/docs/examples/$EXAMPLE/*.css htdocs/bootstrap-v$VERSION/$EXAMPLE/
     echo "... done"
 done
 
 echo "Removing downloaded files ..."
-rm -rf v$VERSION.zip /tmp/bootstrap-$VERSION
+# rm -rf v$VERSION.zip /tmp/bootstrap-$VERSION
 echo "... done"
 
 ## ----------------------------------------------------------------------------
