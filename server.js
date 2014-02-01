@@ -20,6 +20,7 @@ var valid = {
     '/bootstrap-v3.0.3/navbar/'               : true,
     '/bootstrap-v3.0.3/sticky-footer-navbar/' : true,
     '/bootstrap-v3.0.3/navbar-static-top/'    : true,
+    '/bootstrap-v3.0.3/grid/'                 : true,
 };
 var jadeOpts = {
     pretty : true,
