@@ -16,11 +16,15 @@ var st = require('st');
 // ----------------------------------------------------------------------------
 
 var valid = {
+    // Bootstrap v3.0.3
     '/bootstrap-v3.0.3/starter-template/'     : true,
     '/bootstrap-v3.0.3/navbar/'               : true,
     '/bootstrap-v3.0.3/sticky-footer-navbar/' : true,
     '/bootstrap-v3.0.3/navbar-static-top/'    : true,
     '/bootstrap-v3.0.3/grid/'                 : true,
+
+    // Bootstrap v3.1.0
+    '/bootstrap-v3.1.0/starter-template/'     : true,
 };
 var jadeOpts = {
     pretty : true,
