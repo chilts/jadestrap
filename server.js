@@ -25,6 +25,7 @@ var valid = {
 
     // Bootstrap v3.1.0
     '/bootstrap-v3.1.0/starter-template/'     : true,
+    '/bootstrap-v3.1.0/blog/'                 : true,
 };
 var jadeOpts = {
     pretty : true,
