@@ -15,7 +15,7 @@ I decided to put them on GitHub because ... well, I like sharing. :)
 
 ### Bootstrap v3.1.0 ###
 
-Retrieved from here : https://github.com/twbs/bootstrap/archive/v2.1.0.zip (2014-02-01).
+Retrieved from here : https://github.com/twbs/bootstrap/archive/v3.1.0.zip (2014-02-01).
 
 ### Bootstrap v3.0.3 ###
 
